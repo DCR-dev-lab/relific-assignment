@@ -1,0 +1,117 @@
+.container {
+  padding: 24px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #fafafa;
+  height: 100%;
+}
+
+h2 {
+  margin-bottom: 16px;
+  color: #1f2937; /* dark slate */
+}
+
+/* Top actions (search + filter) */
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.actions input,
+.actions select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Buttons */
+.button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #f3f4f6;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Status text */
+.status {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Loading */
+.loading {
+  margin-top: 16px;
+  color: #6b7280;
+}
+
+/* Errors */
+.error {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-size: 14px;
+  width: fit-content;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+.table tr:hover td {
+  background-color: #f9fafb;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  cursor: pointer;
+}
