@@ -1,4 +1,4 @@
-# Relific Frontend Assessment – Section B
+# Relific Frontend Assessment
 
 ## Overview
 This project demonstrates a B2B customer integration dashboard that syncs data from
